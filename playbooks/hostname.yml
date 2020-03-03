@@ -4,3 +4,5 @@
       command: hostname
     - name: Run date command
       command: date
+    - name: run ping command
+      ping:
