@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+    - name: Run hostname command
+      command: hostname
+    - name: Run date command
+      command: date
